@@ -1,0 +1,44 @@
+ 
+    {
+        "category": [
+            {
+                "id":1,
+                "name":"Bebidas",
+                "sublevels": [ 
+                    {
+                        "id":1,
+                        "name":"Gaseosas",
+                        "sublevels": [
+                    {
+                        "id": 1,
+                        "name":"Con azúcar"
+                    },
+                    {
+                        "id": 2,
+                        "name":"Sin azúcar"
+                    }
+                        ]
+                    },
+                    {
+                        "id": 2,
+                        "name":"Vinos",
+                        "sublevels": [
+                            {
+                                "id":1,
+                                "name": "Vinos Tintos"
+                            },
+                            {
+                                "id":2,
+                                "name": "Vinos Blancos"
+                            }
+                        ]
+                    }
+                    
+                ]
+            }
+        ]
+    }
+    
+ 
+    
+
