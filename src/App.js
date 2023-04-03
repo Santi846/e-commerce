@@ -1,24 +1,15 @@
 import React from 'react';
-import {categories} from './data/categories';
+import {Menu} from './components/menu.jsx';
 import './App.css';
+
+
 
 function App() {
 
-  
-  
-
   return (
     <div className="App">
-    <ul>
-      {
-          categories.map((category) => (
-            <li kew={category.id}>{category.name}</li>
-          ))
-        }
-      
-    </ul>
-
-  </div>
+    <Menu></Menu>
+    </div>
   );
 }
 
